@@ -1,0 +1,524 @@
+/* ----------------
+       Fonts
+---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------------------=========UTILITIES=======---------------------- */
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------<<<<FIRST-SECTION STYLES>>>>-------------- */
+.first-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.first-container {
+    border-radius: 30px;
+    background: #161616;
+    display: grid;
+    grid-template-columns: 531px 581px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1321px;
+    height: 646px;
+}
+
+.container-details {
+    margin-top: 33px;
+}
+
+.container-details h1 {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+
+.container-details p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+.container-details button {
+    font-size: 20px;
+    border: 0;
+    color: #FFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background-color: #D00;
+}
+
+.container-details i {
+    margin-left: 10px;
+}
+
+.thumblain img {
+    margin-left: 20px;
+    margin-top: 33px;
+    width: 581px;
+    height: 613px;
+}
+
+/* <<<<<<<<<  SECOND-SECTION  >>>>>>>>>>> */
+.second-section-head {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.form-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    margin-right: 24px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 252px;
+    height: 252px;
+}
+
+form .blog {
+    color: #FFF;
+    background-color: #D00;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 104px;
+}
+
+form .group {
+    padding: 20px 80px;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+form .match {
+    padding: 20px 39px;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.second-section {
+    width: 1321px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    width: 984px;
+    height: 1134px;
+}
+
+.players img {
+    width: 100%;
+}
+
+.players {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.players-details {
+    padding: 20px;
+}
+
+.players-details button {
+    background-color: #FFF;
+    color: #161616;
+    border-radius: 5px;
+    border: 1px solid #161616;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px 16px;
+}
+
+.players-details p {
+    color: #161616;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.players-details .players-time {
+    font-weight: 400;
+}
+
+.players-details .players-time i {
+    margin-right: 10px;
+}
+
+.players-details .players-time span {
+    margin-right: 30px;
+}
+
+.button-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-2 button {
+    padding: 12px 29px;
+    border: 0;
+    color: #FFF;
+    background-color: #D00;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.button-2 {
+    display: none;
+}
+
+/* <<<<<<<<  FOOTER-LAST-PART  >>>>>>>> */
+footer {
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 130px;
+}
+
+.goal {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid #ffffff1a;
+}
+
+.datas {
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 898px;
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* <<<<<<<<<<<<< -----------------MEDIA_QUERY------------- >>>>>>>>>>>>> */
+
+/* <<<<<<<< FOR TABLET USER >>>>>>>>> */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* <<<<<<<<<<< FIRST SECTION STYLES >>>>>>>>>>>> */
+    .first-section {
+        width: 100%;
+    }
+
+    .first-container {
+        width: 100%;
+        height: 398px;
+        grid-template-columns: 316px 323px;
+        margin-bottom: 75px;
+    }
+
+    .container-details h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .container-details p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container-details p span {
+        display: none;
+    }
+
+    .container-details button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .thumblain img {
+        margin-top: 58px;
+        width: 323px;
+        height: 340px;
+    }
+
+    /*<<<<<<<<<<<<< SECOND_SECTION STYLES>>>>>>>>>>>>>> */
+
+    .second-section-head {
+        margin-top: 0;
+    }
+
+    .form-head {
+        background-color: white;
+        margin-right: 0%;
+        width: 100%;
+        height: 200px;
+    }
+
+    form {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 35%;
+    }
+
+    form .group {
+        border: 1px solid #B9B9B9;
+    }
+
+    form .match {
+        border: 1px solid #B9B9B9;
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .second-container {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second-container .none {
+        display: none;
+    }
+
+    .players {
+        width: 100%;
+        height: 100%;
+    }
+
+    .players img {
+        width: 100%;
+    }
+
+    .button-2 {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    /* <<<<<<<<<<<< LAST PART FOR FOOTER STYLES >>>>>>>>>>>> */
+    footer {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    footer .data {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    footer .data p {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    footer .goal {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+/* <<<<<<<<<<<< RESPONSIVE FOR PHONE >>>>>>>>>>>>> */
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* <<<<<<<<<<<< FIRST PART >>>>>>>>>>>>> */
+    .first-section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-container {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-details h1 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        width: 228px;
+        line-height: normal;
+    }
+
+    .container-details button {
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    .container-details p {
+        width: 258px;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .container-details span {
+        display: none;
+    }
+
+    .thumblain {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thumblain img {
+        width: 233px;
+        height: 245px;
+    }
+
+    /*<<<<<<<<------ SECOND-SECTION ------>>>>>>> */
+
+    .second-section-head {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .form-head {
+        background-color: white;
+        align-items: normal;
+        margin-right: 0%;
+        width: 100%;
+        height: 200px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 35%;
+        align-items: center;
+    }
+
+    form .group {
+        margin-bottom: 5%;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 13px 33px 13px 34px;
+        border: 1px solid #B9B9B9;
+    }
+
+    form .match {
+        margin-bottom: 5%;
+        font-size: 20px;
+        padding: 15px 16px;
+        border: 1px solid #B9B9B9;
+    }
+
+    form .blog {
+        padding: 15px 55px 15px 55px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .second-section {
+        height: 100%;
+        width: 100%;
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .second-container {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .players {
+        width: 335px;
+        height: 388.69px;
+        margin-bottom: 40px;
+    }
+
+    .players img {
+        width: 100%;
+    }
+
+    /* <<<<<<<<<<<<< LAST PART FOR FOOTER STYLES >>>>>>>>>>>>> */
+    footer {
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .goal {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    footer .data {
+        display: block;
+        font-size: 14px;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<================================= THE END =================================>>>>>>>>>>>>>>>>>>>>> */
