@@ -286,6 +286,8 @@ hr {
     /*<<<<<<<<<<<<< SECOND_SECTION STYLES>>>>>>>>>>>>>> */
 
     .second-section-head {
+        width: 100%;
+        height: 100%;
         margin-top: 0;
     }
 
@@ -312,6 +314,8 @@ hr {
     }
 
     .second-section {
+        width: 100%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -326,8 +330,9 @@ hr {
     }
 
     .players {
+        border: 1px solid saddlebrown;
         width: 100%;
-        height: 100%;
+        height: 95%;
     }
 
     .players img {
