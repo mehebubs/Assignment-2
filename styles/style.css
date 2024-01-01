@@ -248,14 +248,16 @@ hr {
 
     /* <<<<<<<<<<< FIRST SECTION STYLES >>>>>>>>>>>> */
     .first-section {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 25px;
     }
 
     .first-container {
         width: 100%;
         height: 398px;
         grid-template-columns: 316px 323px;
-        margin-bottom: 75px;
+        margin-bottom: 25px;
     }
 
     .container-details h1 {
@@ -286,14 +288,15 @@ hr {
     /*<<<<<<<<<<<<< SECOND_SECTION STYLES>>>>>>>>>>>>>> */
 
     .second-section-head {
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
         height: 100%;
         margin-top: 0;
     }
 
     .form-head {
         background-color: white;
-        margin-right: 0%;
+
         width: 100%;
         height: 200px;
     }
@@ -306,11 +309,23 @@ hr {
     }
 
     form .group {
+        margin-right: 5%;
+        width: 90%;
+        padding: 0;
         border: 1px solid #B9B9B9;
     }
 
     form .match {
+        margin-right: 0%;
+        width: 90%;
+        padding: 0;
         border: 1px solid #B9B9B9;
+    }
+
+    form .blog {
+        margin-right: 5%;
+        width: 90%;
+        padding: 0;
     }
 
     .second-section {
@@ -379,8 +394,10 @@ hr {
 
     /* <<<<<<<<<<<< FIRST PART >>>>>>>>>>>>> */
     .first-section {
-        width: 100%;
-        height: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 90%;
     }
 
     .first-container {
@@ -507,6 +524,10 @@ hr {
         padding-top: 20px;
         width: 100%;
         height: 100%;
+    }
+
+    hr {
+        width: 80%;
     }
 
     footer .goal {
